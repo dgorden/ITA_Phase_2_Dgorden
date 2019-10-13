@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="411px" height="250px" viewBox="0 0 823 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>capital-one-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="823" height="500"></rect>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#4953CF" offset="0%"></stop>
+            <stop stop-color="#373FA3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="08_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_settings_03_banks" transform="translate(-151.000000, -619.000000)">
+            <g id="capital-one" transform="translate(151.000000, 619.000000)">
+                <g id="capital-one-card">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle-copy-copy" fill="#4953CF" xlink:href="#path-1"></use>
+                    <circle id="Oval" fill="url(#linearGradient-3)" mask="url(#mask-2)" cx="673.5" cy="131" r="196.5"></circle>
+                    <ellipse id="Oval" stroke-opacity="0.270588235" stroke="#FFFFFF" mask="url(#mask-2)" cx="153.500015" cy="365.5" rx="226.500015" ry="226.5"></ellipse>
+                    <circle id="Oval" fill="url(#linearGradient-3)" mask="url(#mask-2)" cx="153.5" cy="365.5" r="196.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

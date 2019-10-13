@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="38px" viewBox="0 0 150 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>onboarding completion</title>
+    <desc>Created with Sketch.</desc>
+    <g id="08_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_settings_01" transform="translate(-730.000000, -148.000000)">
+            <g id="Help-and-onboarding" transform="translate(730.000000, 126.000000)">
+                <g id="onboarding-completion" transform="translate(0.000000, 22.250000)">
+                    <rect id="completion-background" fill-opacity="0.109803922" fill="#FFFFFF" x="0" y="0" width="150" height="35.5"></rect>
+                    <rect id="completion-bar" fill-opacity="0.6" fill="#34D885" x="0" y="0" width="96" height="35.5"></rect>
+                    <text id="3/6" font-family="Poppins-Regular, Poppins" font-size="22" font-weight="normal" line-spacing="47" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="17.5872747" y="23.25">3/6</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

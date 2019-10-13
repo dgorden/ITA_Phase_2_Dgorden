@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>delete-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="08_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_settings_03_banks" transform="translate(-786.000000, -680.000000)" fill="#E6A8BF">
+            <g id="capital-one" transform="translate(151.000000, 619.000000)">
+                <path d="M637.222229,96.5555826 C637.222229,99.0000255 639.222229,101.000027 641.666673,101.000027 L659.44445,101.000027 C661.888894,101.000027 663.888895,99.0000255 663.888895,96.5555826 L663.888895,69.888916 L637.222229,69.888916 L637.222229,96.5555826 L637.222229,96.5555826 Z M666.111111,63.2222202 L658.333333,63.2222202 L656.111112,61 L645,61 L642.777778,63.2222202 L635,63.2222202 L635,67.6666603 L666.111111,67.6666603 L666.111111,63.2222202 L666.111111,63.2222202 Z" id="delete-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

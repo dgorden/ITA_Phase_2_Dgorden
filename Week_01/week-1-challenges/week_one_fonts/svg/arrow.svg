@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="60px" viewBox="0 0 34 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="08_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_settings_01" transform="translate(-885.000000, -881.000000)" fill="#1B2166">
+            <g id="white-card" transform="translate(10.000000, 512.000000)">
+                <g id="options" transform="translate(155.000000, 324.000000)">
+                    <g id="personal-details">
+                        <path d="M752.825405,72.1558079 L726.841402,46.171814 C725.278899,44.6093104 722.739009,44.6093104 721.176758,46.171814 C719.614506,47.7343175 719.614254,50.2742059 721.176758,51.8364569 L744.340289,74.9999792 L721.176758,98.1635041 C719.614256,99.726006 719.614256,102.265893 721.176758,103.828148 C722.739263,105.390399 725.279152,105.390646 726.841404,103.828148 L752.825405,77.8522161 C753.618503,77.0591175 754.003207,76.025513 753.99514,75.0077957 C753.99514,73.9666289 753.610438,72.9408409 752.825405,72.1558079 L752.825405,72.1558079 Z" id="arrow"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

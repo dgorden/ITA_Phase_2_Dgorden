@@ -1,0 +1,399 @@
+/**********************
+GLOBAL
+***********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    min-height: 100%;
+}
+
+.main-container {
+    width: 572.5px;
+    height: 1218px;
+    position: relative;
+    z-index: 1;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+}
+
+/**********************
+HEADER 
+***********************/
+
+.blue-card {
+    width: 100%;
+    height: 600px;
+    background-color: #4953CF;
+    border-radius: 45px;
+}
+
+.settings-nav {
+    display: flex;
+    flex-direction: row;
+    padding-right: 35px;
+    justify-content: flex-end;
+}
+
+.help-and-onboarding {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.settings-nav-item {
+    padding-right: 5px;
+}
+
+.btn svg {
+    margin: 0 auto;
+}
+
+.progress {
+    margin-top: 10px;
+}
+
+.progress svg {
+    border-radius: 25px;
+}
+
+.hero-banner {
+    width: 75%;
+    padding-top: 10px;
+    font-size: 150%;
+    padding-left: 77px;
+    color: #FFFFFF;
+}
+
+/**********************
+BUTTONS 
+***********************/
+
+.social-button {
+    width: 100px;
+    height: 45px;
+    border: 1px solid #373FA3;
+    padding-top: 12.5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 12.5px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.social-buttons-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.signup-back-button {
+    background-color: #373FA3;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: auto 20px;
+}
+
+.signup-back-button svg {
+    transform: translate(100%, 50%);
+}
+
+.submit-button {
+    height: 60px;
+    width: 340px;
+    border-radius: 89px;
+    color: #FFFFFF;
+    background-color: #373FA3;
+    cursor: pointer;
+}
+
+/**********************
+BODY 
+***********************/
+
+.main-container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.white-card {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings-container {
+    width: 100%;
+    height: 879px;
+    background-color: #FFFFFF;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+}
+
+.settings-container .form {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.settings-item {
+    width: 400px;
+    height: 75px;
+    background-color: #FBFBFB;
+    color: #1B2166;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0 1px 7.5px -6px #646464;
+}
+
+/**********************
+SETTINGS FORM 
+***********************/
+
+#settings-box {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.settings-form {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%
+}
+
+.settings-input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-label {
+    color: #8D8D8D;
+    width: 100%;
+    font-size: 70%;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+.input-box {
+    width: 410px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+    border: 0;
+    padding-left: 50px;
+}
+
+.settings-input-box {
+    position: relative;
+}
+
+.settings-input-box svg {
+    position: absolute;
+    left: 28px;
+    top: 50%;
+}
+
+.settings-input-box #settings-phone {
+    float: right;
+}
+
+#settings-phone-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-label {
+    color: #8D8D8D;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 70%;
+}
+
+.social-container {
+    width: 100%;
+}
+
+#settings-phone-box {
+    position: relative;
+}
+
+#settings-phone-box::before {
+    content: " ";
+    background-image: url('week_one_fonts/svg/login-svg/settings_phone.svg');
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px 0 10px 170px;
+    overflow: visible;
+    display: inline-block;
+    /* line-height: 24px; */
+    z-index: 1;
+}
+
+/**********************
+SETTINGS ACCOUNTS 
+***********************/
+
+.account-container {
+    height: 250px;
+    width: 411px;
+    border-radius: 15px;
+    box-shadow: 0 20px 30px -15px rgba(26,39,172,0.60);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.chase {
+    background-image: url('week_one_fonts/svg/accounts-svg/chase-card.svg');
+}
+
+.capital-one {
+    background-image: url('week_one_fonts/svg/accounts-svg/capital-one-card.svg');
+}
+
+.main-container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.white-card {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-button-container {
+    display: flex;
+    align-items: center;
+}
+.settings-accounts-container {
+    width: 100%;
+    height: 879px;
+    background-color: #FFFFFF;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+}
+
+.card-flex-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 30px;
+    width: 50%;
+}
+
+.card-flex-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.settings-container .form {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.button-accounts-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.accounts-submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vendor-heading {
+    font-size: 110%
+}
+
+.sample-card-num {
+    font-size: 90%;
+}
+
+.account-type {
+    font-size: 70%;
+}
+
+.signup-date {
+    font-size: 60%;
+}
+
+.delete-icon {
+    margin-right: 25px;
+}
+
+/**********************
+FOOTER 
+***********************/
+
+.settings-footer {
+    width: 100%;
+    height: 158.5px;
+    background-color: #E5E5E5;
+    border-radius: 45px;
+    display: flex;
+    margin-top: 410px;
+}
+
+.settings-footer-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    padding-bottom: 20px;
+}

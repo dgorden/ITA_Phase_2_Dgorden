@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="23px" viewBox="0 0 41 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>chevron up</title>
+    <desc>Created with Sketch.</desc>
+    <g id="08_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_settings_02_details" transform="translate(-542.000000, -2369.000000)" fill="#A0A0A0">
+            <path d="M573.049988,2378.77408 L555.727501,2361.45142 C554.685843,2360.40975 552.992601,2360.40975 551.951111,2361.45142 C550.909621,2362.49308 550.909453,2364.18634 551.951111,2365.22784 L567.393303,2380.67019 L551.951111,2396.11254 C550.909454,2397.15421 550.909454,2398.84747 551.951111,2399.88897 C552.99277,2400.93047 554.686012,2400.93064 555.727502,2399.88897 L573.049988,2382.57168 C573.578715,2382.04295 573.835181,2381.35388 573.829803,2380.6754 C573.829803,2379.98129 573.573338,2379.29743 573.049988,2378.77408 L573.049988,2378.77408 Z" id="chevron-up" transform="translate(562.499847, 2380.670044) rotate(-90.000000) translate(-562.499847, -2380.670044) "></path>
+        </g>
+    </g>
+</svg>

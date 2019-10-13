@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="46px" viewBox="0 0 26 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>chevron left</title>
+    <desc>Created with Sketch.</desc>
+    <g id="08_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_settings_02_details" transform="translate(-133.000000, -2114.000000)" fill="#FFFFFF">
+            <g id="back-button" transform="translate(105.750000, 2092.000000)">
+                <path d="M52.3689392,42.8669009 L32.8809373,23.3789062 C31.7090597,22.2070286 29.8041425,22.2070286 28.6324539,23.3789062 C27.4607653,24.5507839 27.4605763,26.4557001 28.6324539,27.6273883 L46.0051022,45.0000292 L28.6324539,62.3726721 C27.4605778,63.5445485 27.4605778,65.449464 28.6324539,66.6211548 C29.804333,67.792843 31.7092499,67.7930286 32.8809388,66.6211548 L52.3689392,47.1392068 C52.963763,46.5443829 53.2522909,45.7691795 53.2462406,45.0058916 C53.2462406,44.2250166 52.9577142,43.4556755 52.3689392,42.8669009 L52.3689392,42.8669009 Z" id="chevron-left" transform="translate(40.499943, 45.000000) rotate(180.000000) translate(-40.499943, -45.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

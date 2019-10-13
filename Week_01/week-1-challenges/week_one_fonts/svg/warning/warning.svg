@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="847px" height="728px" viewBox="0 0 847 728" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="823" height="500"></rect>
+        <filter x="-2.5%" y="-3.1%" width="52.0%" height="54%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.498039216 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="08_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_settings_03_banks_b" transform="translate(-139.000000, -860.000000)">
+            <g id="white-bg" transform="translate(0.000000, 512.000000)">
+                <g id="warning" transform="translate(151.000000, 348.000000)">
+                    <g id="warning-content" transform="translate(0.000000, 211.000000)">
+                        <g id="warning-bg">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="No-accounts-linked,-start-adding-your-first-bank-account-tapping-the-button-at-the-bottom-of-this-screen" font-family="Poppins-Regular, Poppins" font-size="48" font-weight="normal" line-spacing="60" fill="#8D8D8D">
+                            <tspan x="118.072" y="215.5">No accounts linked, start </tspan>
+                            <tspan x="43" y="275.5">adding your first bank account </tspan>
+                            <tspan x="108.616" y="335.5">tapping the button at the </tspan>
+                            <tspan x="155.656" y="395.5">bottom of this screen</tspan>
+                        </text>
+                    </g>
+                    <circle id="warning-circle" fill="#FBFBFB" cx="412" cy="175" r="175"></circle>
+                    <path d="M411.500137,44.5 C339.416299,44.5 280.973145,102.943154 280.973145,175.026993 C280.973145,247.119055 339.416299,305.553986 411.500137,305.553986 C483.5922,305.553986 542.02713,247.127255 542.02713,175.026993 C542.02713,102.943154 483.591297,44.5 411.500137,44.5 L411.500137,44.5 Z M411.50013,281.079773 C352.92648,281.079773 305.44735,233.600649 305.44735,175.026993 C305.44735,116.453337 352.926486,68.9742126 411.50013,68.9742126 C470.073786,68.9742126 517.55291,116.453343 517.55291,175.027005 C517.55291,233.600674 470.073798,281.079773 411.50013,281.079773 L411.50013,281.079773 Z M411.508358,101.743996 C402.159638,101.743996 395.086044,106.622773 395.086044,114.503109 L395.086044,186.782242 C395.086044,194.670787 402.158719,199.533142 411.508358,199.533142 C420.628926,199.533142 427.930664,194.467284 427.930664,186.782242 L427.930664,114.503109 C427.929758,106.809859 420.628926,101.743996 411.508358,101.743996 L411.508358,101.743996 Z M411.508354,215.816757 C402.526512,215.816757 395.216553,223.126707 395.216553,232.115858 C395.216553,241.089494 402.526512,248.399445 411.508354,248.399445 C420.490197,248.399445 427.791946,241.089494 427.791946,232.115858 C427.791042,223.125788 420.490211,215.816757 411.508354,215.816757 L411.508354,215.816757 Z" id="warning-icon" fill="#EC8FB2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
