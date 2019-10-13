@@ -321,6 +321,10 @@ SETTINGS ACCOUNTS
     top: 200px;
 }
 
+.extended {
+    top: 300px;
+}
+
 .card-flex-right {
     display: flex;
     flex-direction: column;
@@ -375,6 +379,99 @@ SETTINGS ACCOUNTS
 .delete-icon {
     margin-right: 25px;
 }
+
+/**********************
+LOANS
+***********************/
+.total-loan-value {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+}
+
+.total-debt {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.total-container {
+    display: flex;
+    flex-direction: row;
+    color: #313670;
+    justify-content: space-between;
+    padding: 0 30px 10px 30px;
+    font-size: 18px;
+}
+
+.loan-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.loan-card {
+    background: #FFFFFF;
+    box-shadow: 0 2.5px 10px -4px rgba(0,0,0,0.50);
+    border-radius: 15px;
+    background-image: url('week_one_fonts/svg/loan-svg/bg2.svg');
+    width: 411px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.loan-company {
+    color: #313670;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.loan-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.flex-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.flex-upper,
+.flex-mid,
+.flex-lower {
+    padding: 0 25px 0 25px;
+}
+
+.loan-balance,
+.loan-rate,
+.loan-payment {
+    font-size: 20px;
+    color: #000000;
+}
+
+.loan-label,
+.loan-servicer {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #949191;
+}
+
 
 /**********************
 FOOTER 

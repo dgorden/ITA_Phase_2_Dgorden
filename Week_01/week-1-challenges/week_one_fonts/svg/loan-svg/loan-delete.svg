@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="40px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>loan-delete</title>
+    <desc>Created with Sketch.</desc>
+    <g id="08_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_settings_04_loans" transform="translate(-765.000000, -1005.000000)" fill="#EC8FB2">
+            <g id="white-card" transform="translate(0.000000, 720.000000)">
+                <g id="sallieMae-1" transform="translate(148.000000, 113.000000)">
+                    <path d="M619.222229,207.555583 C619.222229,210.000025 621.222229,212.000027 623.666673,212.000027 L641.44445,212.000027 C643.888894,212.000027 645.888895,210.000025 645.888895,207.555583 L645.888895,180.888916 L619.222229,180.888916 L619.222229,207.555583 L619.222229,207.555583 Z M648.111111,174.22222 L640.333333,174.22222 L638.111112,172 L627,172 L624.777778,174.22222 L617,174.22222 L617,178.66666 L648.111111,178.66666 L648.111111,174.22222 L648.111111,174.22222 Z" id="loan-delete"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
