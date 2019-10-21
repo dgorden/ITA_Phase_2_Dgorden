@@ -1,0 +1,70 @@
+$hr-width: 343px;
+$margin-0-auto: 0 auto;
+
+/**********************
+GLOBAL
+***********************/
+
+@font-face {
+    font-family: 'SF-Pro-Display';
+    src: url('../fonts/SF-Pro-Display-Light.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'SF-Pro-Display';
+}
+
+html {
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    min-height: 100%;
+}
+
+.content {
+    width: 375px;
+    height: 957px;
+    background-color: $black;
+    margin: $margin-0-auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: $black;
+}
+
+.aqua {
+    color: $aqua;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-center {
+    align-items: center;
+}
+
+.flex-justify-evenly {
+    justify-content: space-evenly;
+}
+
+.height-full {
+    height: 100%;
+}

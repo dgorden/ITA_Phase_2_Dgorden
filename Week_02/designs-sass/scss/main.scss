@@ -1,0 +1,192 @@
+/**********************
+MAIN
+***********************/
+
+.back-text, .account-name {
+    font-size: 17px;
+}
+
+.account-recent-trip {
+    width: 61px;
+    height: 21px;
+    border-radius: 10.5px;
+    background-color: $black;
+    color: $white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.main-container {
+    padding: 0 16px;
+}
+
+.account-container {
+    height: 33%;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.black-break {
+    border: 1px solid $black-line;
+    width: $hr-width;
+    margin: $margin-0-auto;
+}
+
+.grey-break {
+    border: 1px solid $white;
+    width: $hr-width;
+    margin: $margin-0-auto;
+}
+
+.account-input {
+    font-size: 24px;
+}
+
+.edit-form {
+    height: 60%;
+}
+
+.input-container {
+    padding-left: 10px;
+}
+
+.user-container {
+    height: 50%;
+}
+
+.account-input {
+    background-color: $black;
+    color: white;
+    border: 0;
+}
+
+::placeholder {
+    color: #eee;
+}
+
+// ACCOUNT
+
+.main-padding {
+    margin-top: 30px;
+}
+.trips-heading {
+    color: $white;
+    font-size: 18px;
+}
+
+.recent-trip {
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.trips-container {
+    height: 285px;
+}
+
+// .account-space-between {
+//     justify-content: space-between;
+// }
+
+.recent-trip-cost {
+    color: $aqua;
+}
+
+.user-trips {
+    padding: 0 10px 0 10px;
+}
+
+.trip-map {
+    background-image: url('../img/trip-map.png');
+    height: 179px;
+    width: 322px;
+}
+
+.payment {
+   padding: 7px 10px 7px 40px;
+}
+
+.payment-container {
+    height: 165px;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 14px;
+}
+
+.support-button {
+    color: $white;
+    font-size: 20px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.support-container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-container-left {
+    display: flex;
+    align-items: center;
+}
+
+.support-label {
+    margin-left: 18px;
+}
+
+.anchor-white {
+    color: $white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// .main-container {
+//     background-color: grey;
+// }
+
+.short  {
+    width: 100%;    
+    border: .5px solid #1E1E1E;
+    // width: 343px;
+    margin: 0 auto;
+}
+
+.paypal-icon-container {
+    width: 36px;
+    height: 27px;
+    background-color: #53CAF1;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-mastercard,
+.payment-paypal,
+.payment-cash,
+.add-method {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.payment-text {
+    margin-left: 15px;
+}

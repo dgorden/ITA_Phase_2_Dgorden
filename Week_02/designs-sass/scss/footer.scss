@@ -1,0 +1,42 @@
+/**********************
+FOOTER
+***********************/
+
+.edit-account-footer {
+    height: 96px;
+    width: 375px;
+    background-color: $grey;
+    border-radius: 22px 22px 0 0;
+}
+
+.map-icon-container {
+    height: 65px;
+    width: 65px;
+    border-radius: 8px;
+    background-color: $aqua;
+}
+
+.map-icon {
+    transform: translate(25%, 30%);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
+.find-text {
+    color: $white;
+    font-size: 24px;
+}
+
+.footer-margin {
+    margin-top: 50px;
+}
+
+.footer-spacing {
+    margin: 15px 0;
+}

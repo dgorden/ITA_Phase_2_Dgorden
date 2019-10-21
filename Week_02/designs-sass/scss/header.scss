@@ -1,0 +1,73 @@
+/**********************
+HEADER
+***********************/
+
+.header-container {
+    height: 44px;
+    margin-bottom: 40px;
+}
+
+.iphone {
+    height: 34px;
+    text-align: center;
+}
+
+.back-arrow {
+    margin-left: 22px;
+}
+
+.account-photo {
+    position: relative;
+    z-index: 1;
+}
+
+.change-photo {
+    width: 40px;
+    height: 41px;
+    background-image: url('../img/pencil.png');
+    position: absolute;
+    z-index: 3;
+    transform: translate(7px, -45px);
+}
+
+.account {
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-name {
+    color: $aqua;
+}
+
+.center {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.recent-trip {
+    color: $white;
+}
+
+.discount-card {
+    width: 108px;
+    height: 38px;
+    background-color: $aqua;
+    border-radius: 4px;
+    border: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.account-header {
+    margin-top: 16px;
+}
