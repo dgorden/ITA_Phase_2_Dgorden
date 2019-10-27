@@ -1,0 +1,33 @@
+/**********************
+BUTTONS
+***********************/
+
+// .button {
+
+// }
+
+.top-nav-filter {
+    background-color: white;
+    border: 0;
+}
+
+.primary-button {
+    
+    background-color: $primary-blue;
+    border: 0;
+}
+
+.mid-nav-button {
+    background-color: $white;
+    border: 0;
+    font-family: 'Proxima Nova Sbold';
+    font-size: 13px;
+}
+
+.passive {
+    color: #7A8899;
+}
+
+.active {
+    color: #2E3C4D;
+}

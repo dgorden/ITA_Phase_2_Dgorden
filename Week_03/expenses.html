@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="content flex-column">
+        <header class="expenses-header flex-column width-full">
+            <div class="iphone-toolbar"></div>
+            <div class="top-nav flex-row width-full">
+                <a href="" class="top-nav-back">
+                    <svg width="45px" height="45px" viewBox="0 0 45 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <filter x="-9.3%" y="-39.8%" width="118.7%" height="179.5%" filterUnits="objectBoundingBox"
+                                id="filter-1">
+                                <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1">
+                                </feGaussianBlur>
+                                <feColorMatrix
+                                    values="0 0 0 0 0.650980392   0 0 0 0 0.701960784   0 0 0 0 0.760784314  0 0 0 0.3 0"
+                                    type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="bars/nav-bar" transform="translate(-7.000000, -51.000000)" fill="#2E3C4D">
+                                <g id="Nav-bar" filter="url(#filter-1)">
+                                    <g id="icons/nav-bar/back" transform="translate(8.000000, 44.000000)">
+                                        <path
+                                            d="M19.4408073,15.4517939 L19.5355339,15.5355339 C19.9260582,15.9260582 19.9314936,16.5537878 19.5375981,16.9476833 L15.4850004,20.9990151 L31.1081973,21 C31.6168295,21 32.0360362,21.3827202 32.0933278,21.8826674 L32.1000004,22 C32.1000004,22.5522847 31.6446948,23 31.1081973,23 L15.4130004,22.9990151 L19.5057331,27.0915195 C19.8674368,27.4532233 19.8892492,28.0145372 19.5833068,28.4059109 L19.5,28.5 L19.405302,28.5837686 C19.0443902,28.8653349 18.5416586,28.8655756 18.1849631,28.5882472 L18.0915195,28.5057331 L12.7013737,23.1155873 C12.6049311,23.0191447 12.5326527,22.9085111 12.4843084,22.7906916 C12.279018,22.6315499 12.138166,22.3921523 12.106673,22.1173326 L12.1000004,22 C12.1000004,21.6578139 12.2747843,21.3557703 12.5353703,21.1754853 C12.5800266,21.0960077 12.6364863,21.020368 12.7050426,20.9518116 L18.1233845,15.5334697 C18.4828162,15.1740381 19.0468589,15.1448571 19.4408073,15.4517939 Z"
+                                            id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+
+                <h1 class="expenses-heading">Expenses</h1>
+
+                <button class="top-nav-filter">
+                    <svg width="20px" height="20px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="icons/nav-bar/filter" transform="translate(-12.000000, -14.000000)" fill="#2E3C4D">
+                                <path
+                                    d="M25,23 C26.8635652,23 28.429479,24.2743978 28.8737865,25.9992387 L28.8737865,25.9992387 L31.0081969,26 C31.5446944,26 32,26.4477153 32,27 C32,27.5561352 31.5559546,28 31.0081969,28 L31.0081969,28 L28.8737865,28.0007613 C28.429479,29.7256022 26.8635652,31 25,31 C23.1364348,31 21.570521,29.7256022 21.1262135,28.0007613 L21.1262135,28.0007613 L12.9918031,28 C12.4553056,28 12,27.5522847 12,27 L12,27 L12.0066726,26.8826674 C12.0639642,26.3827202 12.4831709,26 12.9918031,26 L12.9918031,26 L21.1262135,25.9992387 C21.570521,24.2743978 23.1364348,23 25,23 Z M25,25 C23.8954305,25 23,25.8954305 23,27 C23,28.1045695 23.8954305,29 25,29 C26.1045695,29 27,28.1045695 27,27 C27,25.8954305 26.1045695,25 25,25 Z M19,14 C20.8635652,14 22.429479,15.2743978 22.8737865,16.9992387 L31,17 C31.5522847,17 32,17.4477153 32,18 C32,18.5522847 31.5522847,19 31,19 L22.8737865,19.0007613 C22.429479,20.7256022 20.8635652,22 19,22 C17.1364348,22 15.570521,20.7256022 15.1262135,19.0007613 L13,19 C12.4477153,19 12,18.5522847 12,18 C12,17.4477153 12.4477153,17 13,17 L15.1262135,16.9992387 C15.570521,15.2743978 17.1364348,14 19,14 Z M19,16 C17.8954305,16 17,16.8954305 17,18 C17,19.1045695 17.8954305,20 19,20 C20.1045695,20 21,19.1045695 21,18 C21,16.8954305 20.1045695,16 19,16 Z"
+                                    id="Combined-Shape"
+                                    transform="translate(22.000000, 22.500000) scale(-1, 1) translate(-22.000000, -22.500000) ">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <main class="main-content flex-column width-full">
+            <section class="floating-nav">
+
+            </section>
+            <section class="hero">
+                <div class="hero-heading">
+                    <h1 class="account-total">$850.50</h1>
+                    <p class="currency-type">in USD • US dollar</p>
+                    <p class="currency-type">past 7 days</p>
+                </div>
+                <div class="hero-graph">
+
+                    <svg width="375px" height="87px" viewBox="0 0 375 87" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="expenses" transform="translate(0.000000, -292.000000)">
+                                <g id="content" transform="translate(-63.000000, 94.000000)">
+                                    <g id="hero" transform="translate(0.000000, 92.000000)">
+                                        <g id="graph" transform="translate(0.000000, 106.000000)">
+                                            <path
+                                                d="M1.28159888,76.0309781 C32.6515056,76.0309781 32.974972,9 64.256084,9 C95.537196,9 93.7391029,31.4497475 125.543469,31.4497475 C157.347836,31.4497475 156.989486,16.3796335 187.147979,16.3796335 C217.306472,16.3796335 217.950234,44.9852814 249.827539,44.9852814 C281.704844,44.9852814 278.451151,0.978417711 310.493361,0.978417711 C342.535571,0.978417711 336.661857,34.5710678 368.723094,34.5710678 C400.784331,34.5710678 402.037548,9 434.231977,9 C466.426406,9 461.952284,76.0309781 493.541007,76.0309781 C525.129729,76.0309781 -30.0883078,76.0309781 1.28159888,76.0309781 Z"
+                                                id="Path-3-Copy" fill="#64AAFF"></path>
+                                            <path
+                                                d="M63,75.4989791 L63.0638693,74.5010209 C125.553243,78.5003408 188.042593,80.5 250.531935,80.5 C313.021276,80.5 375.510626,78.5003408 438,74.5010209 L438.063869,75.4989791 C375.553243,79.4996592 313.042593,81.5 250.531935,81.5 C188.021276,81.5 125.510626,79.4996592 63,75.4989791 Z"
+                                                id="mask-copy" stroke="#FFFFFF" stroke-width="10"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+            <section class="mid-nav-container width-full">
+                <nav class="mid-nav flex-row">
+                    <button class="mid-nav-button passive">MERCHANT</button>
+                    <button class="mid-nav-button active">CATEGORY</button>
+                    <button class="mid-nav-button passive">COUNTRY</button>
+                </nav>
+                <hr class="mid-nav-break">
+                <hr class="mid-nav-break-selected">
+            </section>
+
+            <section class="account-categories width-full">
+                <div class="account-category flex-row width-full">
+                    <div class="flex-row category-center">
+
+                        <svg width="36px" height="30px" viewBox="0 0 36 30" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="expenses" transform="translate(-24.000000, -458.000000)">
+                                    <g id="content" transform="translate(-63.000000, 94.000000)">
+                                        <g id="list" transform="translate(63.000000, 353.000000)">
+                                            <g id="content/list-item" transform="translate(12.000000, 0.000000)">
+                                                <g id="image,-logo,-illustration"
+                                                    transform="translate(12.000000, 11.000000)">
+                                                    <image id="Bitmap" x="0" y="0" width="36" height="30"
+                                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAeCAYAAABE4bxTAAAABGdBTUEAALGOfPtRkwAAA1xJREFUWAnNV1tIVFEUXXfedyadMU2zRi2V7KMHaWUkPX6CwISI8KMXFFT0U31F9KKg6CMwiOhDJPqL9KPPCPoJUylDIzEMYzQ18IHv8TFz753TPg6OM3Nn7jSXUTsw3HP32nufNfvsffa5AnSMu6eOlynS/ANAyFGbCwEIaLW43Dfu19bOqnFtiUkbjo0GFP81TkYABqM1GJgIhnJpsq+SsIZoPNF7BKGa+npxangujxtZAsr4rasXRmI6CLAMLn/U8K4qGr9dfayKMeUeBOOCTjTO32/W1BXbLGaDbBWkhxfP9YTrLBBiz7KLYAq4Gofr3R+VA9VcIUcYavPWODu8PjnTaTEP2kTT1KLhq+8TZlkWwF5klS3KFp8fuvsLeqcdyLLP54bjEzM+t08O2HPSbJ7HiveyoghWcVaaIp06BCimjjUe4XzvhMCeu64D7PSiw/DnqFfCCP02OM1IF83hUNLz/lEfZiQFxdkiTAbabNUQ5mG0XjGQ/KQKWxUBs0HxVxIhZl2V9WMtKjAxIqlj6WjKnPmUbCWANEf19gOYG9NU/xdQP6HSs8CWo0tryPPA15dAb9OSTMeM51DyY/PBSDLcg8kGlF8C0nOT9xdmoY9Qwb4wF2FTgQLu3hMmSH6qj5DNGX8lqwYW3yqE6CM05gk5UE3GNTCVslqgj1DHW6osr9rbaDcldbNanoREX5Xx8n5/B9h1BlhHZS9T2Q+0AR28l7Ikller6iPE/Xip7zY+VXtMJDFQC9pEiZ+RD7S/UWnrJ6RylUBgNMBVvBemHYcBsyOonLMVGOqKMFwBQtRIN+5E7v4KmOxRFVhM5IZ/0i4vbfPyElq/DSisAOyZiLmQuJbOrd1Af2soSjH1QqjeSTYletEhwJGl7YEXhz90zVrQTS2hzMIgkUTtg5PwUM/78y1iuzij1BEyi8D2E+TREjcqsn8GQk8LjPyIYHJMvdQR4leQ3y3BCEUvRefUZFcTBjubUZRhBGLeGINGqSPE/fV9AfJK6QshLehd9pOMErbvM6aGJsHoCgtQJDVGagkpEuXGJ6DkSPDk9lAbkZL7NEstIf7PB9qBkV+Ab1ojDvEhfc01vr8gopMMN14eQokIa+AGas4TGvjKQgxjBorRk/+DFOtEwPb6Ly+P9aDHdL9qAAAAAElFTkSuQmCC">
+                                                    </image>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="expense-details category-margin flex-column">
+                            <span class="expense-name">Travel</span>
+                            <span class="expense-total">$425.00</span>
+                        </div>
+                    </div>
+                    <div class="activity-flex-right flex-row">
+                        <span class="expense-percentage">50%</span>
+                    </div>
+                </div>
+                <div class="account-category flex-row width-full">
+                    <div class="flex-row category-center">
+
+
+                        <svg width="34px" height="35px" viewBox="0 0 34 35" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="expenses" transform="translate(-25.000000, -534.000000)">
+                                    <g id="content" transform="translate(-63.000000, 96.000000)">
+                                        <g id="list" transform="translate(75.000000, 351.000000)">
+                                            <g id="content/list-item" transform="translate(0.000000, 78.000000)">
+                                                <g id="image,-logo,-illustration"
+                                                    transform="translate(13.000000, 9.000000)">
+                                                    <image id="Bitmap" x="0" y="0" width="34" height="35"
+                                                        xlink:href="data:image/png;base64,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">
+                                                    </image>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="expense-details category-margin flex-column">
+                            <span class="expense-name">Groceries</span>
+                            <span class="expense-total">$213.00</span>
+                        </div>
+                    </div>
+                    <div class="activity-flex-right flex-row">
+                        <span class="expense-percentage">25%</span>
+                    </div>
+                </div>
+                <div class="account-category flex-row width-full">
+                    <div class="flex-row category-center">
+
+
+                        <svg width="37px" height="33px" viewBox="0 0 37 33" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="expenses" transform="translate(-24.000000, -613.000000)">
+                                    <g id="content" transform="translate(-63.000000, 96.000000)">
+                                        <g id="list" transform="translate(75.000000, 351.000000)">
+                                            <g id="content/list-item" transform="translate(0.000000, 156.000000)">
+                                                <g id="image,-logo,-illustration"
+                                                    transform="translate(12.000000, 10.000000)">
+                                                    <image id="Bitmap" x="0" y="0" width="37" height="33"
+                                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAhCAYAAABeD2IVAAAABGdBTUEAALGOfPtRkwAABNtJREFUWAmtl01sG0UUgN+bXa9/GyeqguHQIBBC0DaNIIKCuPSCiqBVk4ZCTwgOcZBIhVTiFgq9cCKEkDRpekQqB35K83PgAuUA4gYFmjRp6QWVNISmSZzEJI4d785jxtGg9cZrr11Gsmbe37xvvTNvZhFEiwz8Wm9mfH2aTt1rx/dclbr/sx0h0i6NZJ4hgOeIsBEQY0AcibFpBvATEv9iuS34p8qJJLyCvVOfEOd7EGFNA+xcSzROKIe77bdf3NhrIj8pgO53nwtNYNCfavV/Ln1YpG/yWQkkBSIIW0Bnwz1X87LUVdvkw9aMZjpzyM+VBpIZSAdOXbXD6VYpMW7BC3Kg2iYYDIV7J5uUrpq+djhzCji8VkksBy3R8CPVMULa5QwUTxmyOA2Feqcec9q8yHUjmQOEeNiLb6EP+VPzuRYGHLcVGjYlARbknA+G+sYfL2Z308W+zjxoEb7jZi+v501i8VPSzTEPZqIAu+YZLJOFuJgz4DZnOT3ndB9jiL+VchRrLMBNczB0ZqK5lJ+01V2iKAHtK+dX0o5gMlEzRks6CWMebAMHQh9NPlHKl6+s7wdAXymfcjYEvMXSXbt/Zgy+LecsXmWAE/UHu6eedPVlrMHV5tEgNsgVsaYAtrO695GxsgVTghHj/cGeqb3FcohKXFNM711HZq1hfJOHmjm+Yz16j9XpEcxPwPuCveNPOZMRoN+pq0RGZKPTB3ApDyUD515pWqsIzMK+YM/E0wVJCW4WyJUISEtawDgnQ/6DkkJFYACG2AAf248kw+//Ts5TeaOcH7Wu5POYkrEFUFJRKZgFMBg5c223jDU3rIdlX0lDoH80hK75VuOKikM1cPaxT8fDK3e0s+qwdtrtMiKu6vfu+IyFAu1C7zqnPWZzTNcNnZ9YOBSetdtKTlAMTFxvbotacp4Q3iIuTnfRtJoo6PUx+7wSbU0UOFGz0Cg0SIl+R6Sxh1qDY78g5pz2klDSOQ82h0Ni/TRKIBYw2tPHHpmN9FzfZ6LZzSI1uhNIVPXlgI4d4Rr/zErKbOamtUvcZNIMzZSuazcWDgVuOEHsclkoBZaaw9MYMAYkkJogfH4+oUW2HVWy7MmyiKVXT628GitbkO1x9rEnKHuAGtdezLaIC+1pJctenJFg/T0DlMut6ob2xuqbOyftdq/jqqDkDZEDe8+eJA80OwM8t5FX5xd/lWBbSoI9UbFx7Uj6sBNI+C1qS8kPycqZKkYcSRFRIoZUuVB6L31FUNHRbBsn9q5j4sWgRR0rrzd8qZN+EsVqVvZqwTy/vuhY9kWyqPBGibDAkDqWW4M3FYjalapcSH2lr9ITVHQkLT7d2Nsqcb4nEkAQt3+vKfvdgpWFig6nXyZgJ1RCBaT5oX3pYHC6QG8T7gasJFR0OCuAyAk0L4DipYAUW7VgrlA1I9mj4phIqASbPd3RI4F4cj/eKtS7S9WAFd19RYEI5nSNKgKSqKuJR7933ZUDUzuLPc4WqNiF9QfEP9RV4CyBkMeTLSHP/5A93g3MyvIP7H5qvAXK9Gn1wmh/rbd9ft6ebAvNqKBqehew+iMXSHPOtwXqWIvvMhD8IB2Jwx8+g8cXD4b+cgZWI+fBgBKybokf1xgb+OolFPdEjy3/YSnuGx7dK3Jrvkw+eSVyC/oXt/RZOVreSfsAAAAASUVORK5CYII=">
+                                                    </image>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="expense-details category-margin flex-column">
+                            <span class="expense-name">Restaurants</span>
+                            <span class="expense-total">$82.25</span>
+                        </div>
+                    </div>
+                    <div class="activity-flex-right flex-row">
+                        <span class="expense-percentage">10%</span>
+                    </div>
+                </div>
+                <div class="account-category flex-row width-full">
+                    <div class="flex-row category-center">
+
+
+                        <svg width="29px" height="38px" viewBox="0 0 29 38" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="expenses" transform="translate(-28.000000, -688.000000)">
+                                    <g id="content" transform="translate(-63.000000, 96.000000)">
+                                        <g id="list" transform="translate(75.000000, 351.000000)">
+                                            <g id="content/list-item" transform="translate(0.000000, 234.000000)">
+                                                <g id="image,-logo,-illustration"
+                                                    transform="translate(16.000000, 7.000000)">
+                                                    <image id="Bitmap" x="0" y="0" width="29" height="38"
+                                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAmCAYAAAA4LpBhAAAABGdBTUEAALGOfPtRkwAABM5JREFUWAm9V2toHFUU/u7M7Owjm92EmPejm0qaaFvSQGmxoghKbK1VVKKgscYfgoIpRKj4xx/63x9aipKqQdBSKVSKUlGxBd/SmqRNa7N1E0ybV9Numt1kH9mdneu9s9ndmZ3dbBJiLszce875zvnu48y9d0QUKB09PfbG5rbWfy5emFoO+njXoaaWe7ZbvJf7Q8vhuE0oBAjcWjgWTygf7Huh27UcNh6PHI4K5HTHy93ly+G4rSCpQMkPVKUyJbH9+YLt7XrVo1LaBkIvnuw7cisfLqUvSEptRV8TQhIU6lMpJ1OtJJ7mOoGQUyZbDgXJodNUtBddoKjgws+3N993J2at21k2ea7GGrit91EgCN9NNR8gbJjt1cPfSFBVzW7HUXIQOdc3P+lHOA6CJj3Bqto27CUvwZ/Lh9Arj1UhprwOQW2EymhSRU3IOimlXXlNxFgW+A4kuY9sP3OB0IFHepmxjQPmY3IWbn1EpyUOQijYIKJwOw9ITGpV2Co88W4ZRq+PrQ9LVhSXqwS9PS7saPDbEIhskUCp8Ju3mhH6YK2Mw16jZLmYxZBPRnxeRElrJP3RxWYkhCcsZjDTBINz+OrPWk7KU1yUOCrORs5LxZ4FeJ6fSwrLvC+9U4XAZTu2vXUTREo6T5xxYbSvLK+XohuLRppCBv52YOxESspfR6eTIxo76Wark8QFfbb8DlkWA2nQawV/VlpunCpdKdSA00g311hxsPNtg2G9hV0Nl1jIf7WwGqnTLsKz6d715jHEqygdTcuG6U1pVZYblCZSolaLfPFI/q06oRrxfLHFPHgTaWRRwfRMGAm6lNJL1JJIUF1eBKssGjrD9meM35xHNJbccvXGMrcVpW5zgpm6vhBWTIQ8kMLOmXAkro+ptaPxRE5CbgyGzHiuN42U8q6vocQYeSAQQZTNVJHNArfbDotkGpMW2US6Bj6MjMxiZMwPfRrIFhFbW8qxqabYFFIj5XvxWsvQ1Wn4Rv0oclhQV+eGLEsIBqKYmJzDwNA0aqqL4al3syTMkGikTss0u7co7GRb/cCHvX7Y2XTu2d0AYWk6OVFFuQPn+ydx9dqMRloij6fHpU26TQhhd2UfHJKfpTnVLk7ckP2wD4l9NQnDoygUVpsEiRHq8Q47O8BYDCUWR5P7RzQ4/kqT8vP0fFraiIYoHWJXGsW7EVxpDiWUkDA42JxWbERDEkRtTTeCS89hTFdXPXD3M0A0APi+ZKd7WI9dXbtxH1C2DZj4BZj63eCbIbWxb6n9OMBrXqp2AedeS7ZX+27pBHa+mfRqeRE4y+JM/pqOkpneu3ZkCLm59n5AzH3nSXvna9Q9ZLTUPmiQM6SBEUDVbdABH5DQyQa3AsLssBGQJWemd34c+OkNgE9HjK3p4PtGx9VIQ0fZzsLGU7qVrSdb05HTBm9CPynZ2M3BKnSz7ggDhm78rwIJQ3Zck1Bccrj/hrVzYLa8K5vvOY/3mFNUFrP1heQT17d0hOKWSj2uyrrwx/76yffIs+Oz2q310c7uVlWNfKwH8bZE7A9/+8WRYLa+kNze+cpn7EfacNMjgvDp95/3fsh9M9lbKNI62jVS2bE4wc4rlrKZwn5yx5xPPpDzpzaDyt2ilFzRW9ifvMJuhumD5T8BhngFMB0oNAAAAABJRU5ErkJggg==">
+                                                    </image>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="expense-details category-margin flex-column">
+                            <span class="expense-name">Public Transportation</span>
+                            <span class="expense-total">$40.50</span>
+                        </div>
+                    </div>
+                    <div class="activity-flex-right flex-row">
+                        <span class="expense-percentage">5%</span>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="width-full flex-column footer">
+            <nav class="flex-row footer-nav">
+                <span class="wallet icon">
+                    <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="bars/tab/global-nav" transform="translate(-27.000000, -14.000000)" fill="#8F9FB3">
+                                <g id="Tab-Bar">
+                                    <g id="icons/tab-bar/home" transform="translate(21.000000, 8.000000)">
+                                        <path
+                                            d="M24,18.99029 C24,19.547749 23.5435107,19.9996588 23.0049063,19.9996588 L19.414,19.9996588 L18.1247565,18.7104154 C17.7322165,18.3178754 17.7265,17.6871588 18.1247565,17.2889023 L19.414,15.9996588 L23.0049063,15.9996588 C23.5544814,15.9996588 24,16.443012 24,17.0090277 L24,18.99029 Z M21.9975,22.9996588 C21.9972239,23.5519436 21.5471477,23.9996588 20.9903703,23.9996588 L9.00662972,23.9996588 C8.45068348,23.9996588 8,23.5438979 8,22.9971856 L8,13.0021321 C8,12.4484814 8.44994876,11.9996588 9.00684547,11.9996588 L20.9931545,11.9996588 C21.5492199,11.9996588 22,12.4435237 22,12.9996588 L22,13.9996588 L19,13.9996588 C18.735,13.9996588 18.48,14.1056588 18.293,14.2926588 L15.293,17.2926588 C14.902,17.6836588 14.902,18.3156588 15.293,18.7076588 L18.293,21.7076588 C18.48,21.8936588 18.735,21.9996588 19,21.9996588 L21.998,21.9996588 L21.9975,22.9996588 Z M17.7138224,8.59100417 C18.1574052,8.41353005 18.6920457,8.61975016 18.9039599,9.04357872 L19.382,9.99965885 L14.193,9.99965885 L17.7138224,8.59100417 Z M18.628,6.07165885 C19.112,5.87865885 19.662,6.08765885 19.895,6.55265885 L19.895,6.55265885 L21.618,9.99965885 L22,9.99965885 C23.103,9.99965885 24,10.8966588 24,11.9996588 L24,11.9996588 L24,13.9996588 L25,13.9996588 C25.552,13.9996588 26,14.4476588 26,14.9996588 L26,14.9996588 L26,20.9996588 C26,21.5516588 25.552,21.9996588 25,21.9996588 L25,21.9996588 L24,21.9996588 L24,23.9996588 C24,25.1026588 23.103,25.9996588 22,25.9996588 L22,25.9996588 L8,25.9996588 C6.897,25.9996588 6,25.1026588 6,23.9996588 L6,23.9996588 L6,11.9996588 C6,10.8966588 6.897,9.99965885 8,9.99965885 L8,9.99965885 L8.807,9.99965885 Z M22,16.9986588 C21.4477153,16.9986588 21,17.4463741 21,17.9986588 C21,18.5509436 21.4477153,18.9986588 22,18.9986588 C22.5522847,18.9986588 23,18.5509436 23,17.9986588 C23,17.4463741 22.5522847,16.9986588 22,16.9986588 Z"
+                                            id="home"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+
+                <span class="graph icon">
+                    <svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="bars/tab/global-nav" transform="translate(-105.000000, -15.000000)" fill="#8F9FB3">
+                                <g id="Tab-Bar">
+                                    <g id="icons/tab-bar/stats" transform="translate(97.000000, 8.000000)">
+                                        <path
+                                            d="M24,15 C24.5522847,15 25,15.4477153 25,16 L25,24 C25,24.5522847 24.5522847,25 24,25 C23.4477153,25 23,24.5522847 23,24 L23,16 C23,15.4477153 23.4477153,15 24,15 Z M19,7 C19.5522847,7 20,7.44771525 20,8 L20,24 C20,24.5522847 19.5522847,25 19,25 C18.4477153,25 18,24.5522847 18,24 L18,8 C18,7.44771525 18.4477153,7 19,7 Z M14,13 C14.5522847,13 15,13.4477153 15,14 L15,24 C15,24.5522847 14.5522847,25 14,25 C13.4477153,25 13,24.5522847 13,24 L13,14 C13,13.4477153 13.4477153,13 14,13 Z M9,18 C9.55228475,18 10,18.4477153 10,19 L10,24 C10,24.5522847 9.55228475,25 9,25 C8.44771525,25 8,24.5522847 8,24 L8,19 C8,18.4477153 8.44771525,18 9,18 Z"
+                                            id="stats"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+
+                <span class="add icon">
+                    <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="bars/tab/global-nav" transform="translate(-174.000000, -10.000000)">
+                                <g id="Tab-Bar">
+                                    <g id="icons/tab-bar/add" transform="translate(172.000000, 8.000000)">
+                                        <path
+                                            d="M16,2 C26.6714887,2 30,5.83923664 30,16 C30,26.1607634 26.6714887,30 16,30 C5.32851131,30 2,26.1607634 2,16 C2,5.83923664 5.32851131,2 16,2 Z"
+                                            id="Rectangle" fill="#4A98F7"></path>
+                                        <rect id="Rectangle-3" fill="#FFFFFF" x="15" y="11" width="2" height="10"
+                                            rx="1">
+                                        </rect>
+                                        <rect id="Rectangle-3-Copy-7" fill="#FFFFFF"
+                                            transform="translate(16.000000, 16.000000) rotate(90.000000) translate(-16.000000, -16.000000) "
+                                            x="15" y="11" width="2" height="10" rx="1"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+
+                <span class="alert icon">
+                    <svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="bars/tab/global-nav" transform="translate(-255.000000, -15.000000)" fill="#8F9FB3">
+                                <g id="Tab-Bar">
+                                    <g id="icons/tab-bar/notification" transform="translate(247.000000, 8.000000)">
+                                        <path
+                                            d="M16,7 C16.8749939,7 17.5999934,7.64732143 17.5999934,8.42857143 L17.5999934,8.42857143 L17.5999934,10.0580357 C20.3499916,10.6997771 22.3999902,12.9207586 22.3999902,15.5714286 L22.3999902,15.5714286 L22.3999902,21.2912943 C22.3999902,21.2912943 22.4062398,21.68192 22.6062396,22.0446429 C22.6989483,22.2101943 22.9518081,22.3685513 23.3648188,22.5197139 C23.7463162,22.6593251 24.0000109,23.0223307 24.0000109,23.4285714 C24.0000109,23.8230605 23.6802143,24.1428571 23.2857252,24.1428571 L23.2857252,24.1428571 L18.0062799,24.1419308 C18.1371742,24.4021862 18.2105263,24.6932158 18.2105263,25 C18.2105263,26.101562 17.2648021,27 16.1052632,27 C14.9457242,27 14,26.101562 14,25 C14,24.6932158 14.0733521,24.4021862 14.2042464,24.1419308 L8.71428571,24.1428571 C8.31979661,24.1428571 8,23.8230605 8,23.4285714 C8,23.0230671 8.24927708,22.6592758 8.62743563,22.5128863 C9.02010205,22.360892 9.26512347,22.1992303 9.36249987,22.0279014 C9.57499892,21.6595986 9.59999891,21.2633929 9.59999891,21.2633929 L9.59999891,15.5714286 C9.59999891,12.9207586 11.6499975,10.6997771 14.3999956,10.0580357 L14.3999956,10.0580357 L14.3999956,8.42857143 C14.3999956,7.64732143 15.1249951,7 16,7 Z M16.0356993,12 C18.4431083,12 20.3758157,13.6699225 20.3758157,15.75 L20.3758157,20.7451175 C20.3758157,20.7451175 20.3588618,21.34082 20.7148873,21.9609375 C20.7205381,21.9755862 20.7318412,21.9853513 20.7374921,22 L11.3,22 C11.3056508,21.990235 11.3169525,21.9804688 11.3226048,21.9755862 C11.6842811,21.3603513 11.6955828,20.7695312 11.6955828,20.7695312 L11.6955828,15.75 C11.6955828,13.6699225 13.6282916,12 16.0356993,12 Z"
+                                            id="notification"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+
+                <span class="user icon">
+                    <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="bars/tab/global-nav" transform="translate(-328.000000, -14.000000)" fill="#8F9FB3">
+                                <g id="Tab-Bar">
+                                    <g id="icons/tab-bar/account" transform="translate(322.000000, 8.000000)">
+                                        <path
+                                            d="M15.9849021,18 C22.1796228,18 25.6730019,20.1317142 25.9953052,24.4251416 C26.0366483,24.9758768 25.6237045,25.455851 25.0729694,25.4971942 C24.5222342,25.5385373 24.04226,25.1255935 24.0009168,24.5748584 C23.7727142,21.5349525 21.2572874,20 15.9849021,20 C10.7140588,20 8.20990907,21.5328852 7.99756436,24.569752 C7.9590414,25.1206916 7.48118759,25.5360873 6.930248,25.4975644 C6.37930842,25.4590414 5.96391267,24.9811876 6.00243564,24.430248 C6.30285446,20.1337814 9.78863943,18 15.9849021,18 Z M16,6 C18.7614237,6 21,8.23857625 21,11 C21,13.7614237 18.7614237,16 16,16 C13.2385763,16 11,13.7614237 11,11 C11,8.23857625 13.2385763,6 16,6 Z M16,8 C14.3431458,8 13,9.34314575 13,11 C13,12.6568542 14.3431458,14 16,14 C17.6568542,14 19,12.6568542 19,11 C19,9.34314575 17.6568542,8 16,8 Z"
+                                            id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+            </nav>
+            <div class="width-full iphone-bottom-nav">
+                <svg width="134px" height="5px" viewBox="0 0 134 5" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="bars/tab/global-nav" transform="translate(-121.000000, -68.000000)" fill="#D3D9E0">
+                            <g id="Tab-Bar">
+                                <g id="iPhone-X/Home-Indicator/Home-Indicator---On-Light"
+                                    transform="translate(0.000000, 48.000000)">
+                                    <rect id="Rectangle-24" x="121" y="20" width="134" height="5" rx="2.5"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>

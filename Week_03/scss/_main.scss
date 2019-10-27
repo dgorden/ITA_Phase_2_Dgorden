@@ -1,0 +1,173 @@
+/**********************
+MAIN
+***********************/
+
+.main-content {
+    height: 671px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.floating-nav {
+    background-image: url('../img/bars/tab/local nav/floating/bar.png');
+    height: 44px;
+    width: 300px;
+}
+
+.hero {
+    margin-top: 30px;
+    // margin-bottom: -75px;
+    height: 249px;
+    text-align: center;
+}
+
+.account-total,
+.account-comparison {
+    font-family: 'Proxima Nova Sbold';
+    letter-spacing: 1px;
+    margin: 0;
+    color: $font-navy;
+}
+
+.currency-type {
+    font-family: 'Avenir Next';
+    font-size: 14px;
+    text-align: center;
+    color: $font-navy;
+    margin-top: 5px;
+}
+
+.account-comparison {
+    font-size: 20px;
+}
+
+.hero-subheading {
+    margin-top: 38px;
+    text-align: center;
+}
+
+.hero-graph {
+    margin-top: 10px;
+    position: relative;
+}
+
+.hero-graph-switch {
+    position: absolute;
+    margin: 0 154px;
+    z-index: 5;
+}
+
+.account-activity {
+    height: 309px;
+    // margin-top: 100px;
+}
+
+.account-activity-label {
+    font-family: 'Avenir Next';
+    font-size: 13px;
+    color: #7A8899;
+    text-align: left;
+    margin-left: 21px;
+}
+
+.account-activity-today {
+    margin-bottom: 28px;
+}
+
+.list-item {
+    height: 80px;
+    margin: 10px 0;
+}
+
+.icon-placeholder {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.expense-name {
+    font-family: 'Avenir Next Medium';
+    font-size: 16px;
+}
+
+.expense-type {
+    font-family: 'Avenir Next';
+    font-size: 14px;
+}
+
+.expense-cost {
+    font-family: 'Proxima Nova Sbold';
+    font-size: 16px;
+}
+
+.activity-flex-left {
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.activity-flex-right {
+    width: 30%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.mid-nav-container {
+    // height: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.mid-nav {
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mid-nav-break {
+    border: 1px solid #D3D9E0;
+}
+
+.mid-nav-break-selected {
+    width: 125px;
+    border: 1px solid #2E3C4D;
+    position: absolute;
+    z-index: 5;
+    transform: translate(100%, -2px);
+}
+
+.account-categories {
+    line-height: 25px;
+}
+
+.category-center {
+    align-items: center;
+}
+
+.account-category {
+    height: 80px;
+    margin: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-margin {
+    margin-left: 20px;
+}
+
+.expense-name {
+    font-family: 'Avenir Next Medium';
+    font-size: 16px;
+}
+
+.expense-total {
+    font-family: 'Avenir Next';
+    font-size: 14px;
+}
+
+.expense-percentage {
+    font-family: 'Proxima Nova Sbold';
+    font-size: 16px;
+}

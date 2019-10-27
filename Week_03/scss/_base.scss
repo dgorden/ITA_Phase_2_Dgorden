@@ -1,0 +1,53 @@
+/**********************
+GLOBAL
+***********************/
+
+$hr-width: 375px;
+$margin-0-auto: 0 auto;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'SF-Pro-Display';
+}
+
+html {
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    min-height: 100%;
+}
+
+.content {
+    width: 375px;
+    height: 812px;
+    background-color: $white;
+    margin: $margin-0-auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: $black;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-center {
+    align-items: center;
+}

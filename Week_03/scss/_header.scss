@@ -1,0 +1,34 @@
+/**********************
+HEADER
+***********************/
+
+.app-header {
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone-toolbar {
+    height: 13px;
+    width: 326px;
+    background-image: url('../img/iPhone X/Status Bars/Status Bar (Black).png')
+}
+
+.expenses-heading {
+    font-family: 'Proxima Nova Sbold';
+    font-size: 17px;
+}
+
+.expenses-header {
+    height: 88px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-nav {
+    align-items: center;
+    justify-content: space-between;
+    // margin: 0 30px;
+    margin-right: 40px;
+
+}
