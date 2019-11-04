@@ -20,7 +20,8 @@ html {
 }
 
 .content {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     height: 812px;
     background-color: $white;
     margin: $margin-0-auto;
@@ -36,6 +37,10 @@ a {
 
 .width-full {
     width: 100%;
+}
+
+.width-90-percent {
+    width: 90%;
 }
 
 .flex-column {

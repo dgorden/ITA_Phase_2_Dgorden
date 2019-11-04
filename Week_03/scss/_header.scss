@@ -11,7 +11,7 @@ HEADER
 .iphone-toolbar {
     height: 13px;
     width: 326px;
-    background-image: url('../img/iPhone X/Status Bars/Status Bar (Black).png')
+    background-image: url('../img/iPhone-X/Status-Bars/Status Bar (Black).png')
 }
 
 .expenses-heading {
@@ -20,7 +20,7 @@ HEADER
 }
 
 .expenses-header {
-    height: 88px;
+    padding: 11px 0;
     align-items: center;
     justify-content: space-around;
 }
@@ -28,7 +28,5 @@ HEADER
 .top-nav {
     align-items: center;
     justify-content: space-between;
-    // margin: 0 30px;
     margin-right: 40px;
-
 }

@@ -1,0 +1,54 @@
+/**************************
+EXPENSES SCREEN 
+**************************/
+.mid-nav-container {
+    position: relative;
+    z-index: 1;
+}
+
+.mid-nav {
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mid-nav-break {
+    border: 1px solid #D3D9E0;
+}
+
+.mid-nav-break-selected {
+    width: 125px;
+    border: 1px solid #2E3C4D;
+    position: absolute;
+    z-index: 5;
+    transform: translate(100%, -2px);
+}
+
+.account-categories {
+    line-height: 25px;
+}
+
+.category-center {
+    align-items: center;
+}
+
+.account-category {
+    padding: 15px 0;
+    margin: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-margin {
+    margin-left: 20px;
+}
+
+.expense-total {
+    font-family: 'Avenir Next';
+    font-size: 14px;
+}
+
+.expense-percentage {
+    font-family: 'Proxima Nova Sbold';
+    font-size: 16px;
+}

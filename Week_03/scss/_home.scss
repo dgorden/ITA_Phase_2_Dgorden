@@ -1,0 +1,41 @@
+/**************************
+HOME SCREEN 
+**************************/
+.account-comparison {
+    font-size: 20px;
+}
+
+.hero-graph-switch {
+    position: absolute;
+    margin: 0 154px;
+    z-index: 5;
+}
+
+.account-activity {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.account-activity-label {
+    font-family: 'Avenir Next';
+    font-size: 13px;
+    color: #7A8899;
+    text-align: left;
+    margin-left: 21px;
+}
+
+.account-activity-today {
+    padding-bottom: 10px;
+}
+
+.expense-type {
+    font-family: 'Avenir Next';
+    font-size: 14px;
+}
+
+.expense-cost {
+    font-family: 'Proxima Nova Sbold';
+    font-size: 16px;
+}

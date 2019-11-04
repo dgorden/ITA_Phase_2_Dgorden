@@ -31,3 +31,43 @@ BUTTONS
 .active {
     color: #2E3C4D;
 }
+
+.account-cta-btn {
+    padding: 10px 20px;
+    border-radius: 20.5px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(42,55,71,0.15);
+    font-size: 15px;
+    font-family: 'Avenir Next';
+    font-weight: 'Demi Bold';
+    color: #3872BA;
+}
+
+.account-grid-button {
+    border: 0;
+    width: 156px;
+    height: 158px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(42,55,71,0.15);
+    border-radius: 18px;
+    font-size: 16px;
+    font-family: 'Avenir Next Medium';
+    color: #242B33;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.exit-btn {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 0;
+    margin-right: 80px;
+}
+
+.add-contact-btn {
+    background-color: #fff;
+    border: 0;
+}

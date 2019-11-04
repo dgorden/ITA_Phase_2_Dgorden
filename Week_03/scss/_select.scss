@@ -1,0 +1,77 @@
+.header-heading-container {
+    margin-top: 10px;
+    width: 80%;
+    align-items: center;
+}
+.header-heading {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: #242B33;
+}
+
+.contact-container {
+    align-items: center;
+}
+
+.add-contact {
+    margin-top: 20px;
+    flex-grow: 0;
+}
+
+.select-search {
+    margin-top: 15px;
+}
+
+.search-bar {
+    padding: 10px 60px;
+    background-color: #fff;
+    background-image: url('../img/icons/search-icon.png');
+    background-position: 20px;
+    background-repeat: no-repeat;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(42,55,71,0.15);
+    border-radius: 17px;
+}
+
+.search-bar::-webkit-input-placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #8F9FB3;
+}
+
+.recent-contacts {
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.all-contacts {
+    margin-top: 30px;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.contact-photo {
+    height: 60px;
+    width: 60px;
+}
+
+.contacts-header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #7A8899;
+    margin-left: 11px;
+    text-align: left;
+}
+
+.contact-label {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #242B33;
+    margin-left: 15px;
+    margin-right: 60px;
+}
